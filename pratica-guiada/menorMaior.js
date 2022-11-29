@@ -9,8 +9,9 @@ console.log("O primeiro número é igual aos segundo?"+res)
 res = primeiro <= segundo
 console.log("O primeiro número é menor ou igual o segundo?"+res)
 //O primeiro núumero é maior que o segundo?
-res = prieiro > segundo
+res = primeiro > segundo
 console.log("O primeiro núumero é maior que o segundo?"+res)
 //O primeiro número é menor que o segundo?
 res = primeiro < segundo
 console.log("O primeiro número é menor que o segundo?"+res)
+

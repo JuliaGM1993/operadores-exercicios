@@ -1,7 +1,11 @@
-let primeiroNumero = Boolean(prompt("Escolha um número"))
-let segundoNumero= Boolean(prompt("Escolha outro número"))
+let primeiroNumero = Number(prompt("Escolha um número"))
+let segundoNumero = Number(prompt("Escolha outro número"))
 
-console.log(primeiroNumero>segundoNumero)
-console.log(primeiroNumero=segundoNumero)
-console.log(primeiroNumero%segundoNumero)
-console.log(segundoNumero%primeiroNumero)
+let r1 = primeiroNumero > segundoNumero
+console.log(r1)
+let r2 = primeiroNumero == segundoNumero
+console.log(r2)
+let r3 = primeiroNumero % segundoNumero  === 0
+console.log(r3)
+let r4 = segundoNumero % primeiroNumero === 0 
+console.log(r4)
